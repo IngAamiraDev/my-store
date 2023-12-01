@@ -22,7 +22,7 @@ Cumplen el principio de una sola responsabilidad
   - **ngAfterContentChecked:**
   - **ngAfterViewInit:** After render / hijos ya fueron pintandos.
   - **ngAfterViewCheck:**
-- **ngOnDestroy:**
+- **ngOnDestroy:** Ver cuando el componente se destruye
 
 ## Inputs
 Es la forma de enviar información del Padre al Hijo
