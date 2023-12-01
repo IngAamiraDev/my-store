@@ -32,4 +32,7 @@ Es la forma de enviar información del Padre al Hijo
 ## Outputs
 Es la forma de enviar información del Hijo al Padre
 
+## Audio player con ngAfterViewInit
+[Info](https://wavesurfer.xyz/)
+
 ![Outputs](/imgs/outputs.png)
