@@ -7,4 +7,5 @@
 
 
 # Componentes
+Cumplen el principio de una sola responsabilidad
 ![Componentes](/imgs/componentes.png)
