@@ -5,7 +5,10 @@
 ## Configurar Tailwindcss
 - [Documentación](https://tailwindcss.com/docs/guides/angular)
 
-
-# Componentes
+## Componentes
 Cumplen el principio de una sola responsabilidad
 ![Componentes](/imgs/componentes.png)
+
+## Inputs
+Es la forma de enviar información del Padre al hijo
+![Inputs](/imgs/inputs.png)
