@@ -36,3 +36,8 @@ Es la forma de enviar información del Hijo al Padre
 [Info](https://wavesurfer.xyz/)
 
 ![Outputs](/imgs/outputs.png)
+
+
+
+## Recursos Adicionales
+[Stableaudio](https://stableaudio.com/)
