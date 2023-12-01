@@ -10,5 +10,9 @@ Cumplen el principio de una sola responsabilidad
 ![Componentes](/imgs/componentes.png)
 
 ## Inputs
-Es la forma de enviar información del Padre al hijo
+Es la forma de enviar información del Padre al Hijo
 ![Inputs](/imgs/inputs.png)
+
+## Outputs
+Es la forma de enviar información del Hijo al Padre
+![Outputs](/imgs/outputs.pngg)

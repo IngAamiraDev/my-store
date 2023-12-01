@@ -13,7 +13,7 @@ export class ProductComponent {
   @Input({required: true}) price: number = 0;
   @Input({required: true}) title: string = '';
 
-  @Output() addToCart = new EventEmitter();
+  @Output() addToCart = new EventEmitter();  
 
   addToCartHandler() {
     console.log('click form child');
