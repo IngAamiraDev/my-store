@@ -65,6 +65,10 @@ Se usa para hacer transformaciones
 Para hacer manipulaciones del DOM de forma directa
 
 
+## Pasar proyecto a la nueve versión (v17)
+- Ejecutar `ng g @angular/core:control-flow`
+
+
 ## Recursos Adicionales
 - [Stableaudio](https://stableaudio.com/)
 - [Github](https://github.com/platzi/curso-angular-ecommerce)
