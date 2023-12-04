@@ -58,6 +58,13 @@ La gestión de estados es el proceso de gestionar los estados de los controles d
 - **Date:** -> `npm i date-fns`
 
 
+## Pipes
+Se usa para hacer transformaciones
+
+## Directivas
+Para hacer manipulaciones del DOM de forma directa
+
+
 ## Recursos Adicionales
 - [Stableaudio](https://stableaudio.com/)
 - [Github](https://github.com/platzi/curso-angular-ecommerce)
