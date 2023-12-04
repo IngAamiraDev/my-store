@@ -1,8 +1,9 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProductComponent } from './../../components/product/product.component';
 import { HeaderComponent } from './../../../shared/components/header/header.component';
 import { Product } from './../../../shared/models/product.model';
+import { CartService } from './../../../shared/services/cart.service';
 
 @Component({
   selector: 'app-list',
@@ -14,7 +15,7 @@ import { Product } from './../../../shared/models/product.model';
 export class ListComponent {
 
   products = signal<Product[]>([]);
-  cart = signal<Product[]>([]);
+  private cartService = inject(CartService);
 
   constructor() {
     const initProducts: Product[]  = [
@@ -43,21 +44,21 @@ export class ListComponent {
         id: Date.now(),
         title: 'Pro 4',
         price: 100,
-        image: 'https://picsum.photos/640/640?r=42',
+        image: 'https://picsum.photos/640/640?r=26',
         creationAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Pro 5',
         price: 100,
-        image: 'https://picsum.photos/640/640?r=43',
+        image: 'https://picsum.photos/640/640?r=27',
         creationAt: new Date().toISOString()
       },
       {
         id: Date.now(),
         title: 'Pro 6',
         price: 100,
-        image: 'https://picsum.photos/640/640?r=44',
+        image: 'https://picsum.photos/640/640?r=28',
         creationAt: new Date().toISOString()
       }
     ];
@@ -65,7 +66,6 @@ export class ListComponent {
   }
 
   addToCart(product: Product) {
-    this.cart.update(prevState => [...prevState, product]);
+    this.cartService.addToCart(product)
   }
-
 }

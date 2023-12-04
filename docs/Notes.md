@@ -38,6 +38,18 @@ Es la forma de enviar información del Hijo al Padre
 ![Outputs](/imgs/outputs.png)
 
 
+## Prop drilling / Imput drilling
+El **Prop Drilling** es una paso del desarrollo que ocurre cuando necesitamos obtener datos que están en varias capas en el **árbol de componentes**
+
+![Prop Drilling](/imgs/prop-drilling.png)
+
+### State Management
+La gestión de estados es el proceso de gestionar los estados de los controles de usuario. Ayuda a los desarrolladores a crear aplicaciones a gran escala con comunicaciones de datos intensas y, al mismo tiempo, mantener un alto rendimiento de las aplicaciones.
+
+![Stage Manager](/imgs/state-management.png)
+
 
 ## Recursos Adicionales
-[Stableaudio](https://stableaudio.com/)
+- [Stableaudio](https://stableaudio.com/)
+- [Github](https://github.com/platzi/curso-angular-ecommerce)
+
