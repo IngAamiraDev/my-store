@@ -48,8 +48,14 @@ La gestión de estados es el proceso de gestionar los estados de los controles d
 
 ![Stage Manager](/imgs/state-management.png)
 
+## Inyección de dependencias
+![di](/imgs/di.png)
+![di-1](/imgs/di-1.png)
+![di-2](/imgs/di-2.png)
+
 
 ## Recursos Adicionales
 - [Stableaudio](https://stableaudio.com/)
 - [Github](https://github.com/platzi/curso-angular-ecommerce)
+- [Fake API](https://fakeapi.platzi.com/)
 
